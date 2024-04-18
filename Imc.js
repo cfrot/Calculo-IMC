@@ -1,0 +1,11 @@
+const nome = 'Daniel';
+const sobrenome = 'Pacheco';
+const idade = 25;
+const peso = 60;
+const altura = 1.68;
+let imc = peso / (altura * altura);
+let anoNascimento;
+anoNascimento = 2023 - 1980;
+console.log (`${nome} ${sobrenome} tem ${idade} anos pesa ${peso} Kg`);
+console.log (`tem  ${altura} de altura e seu imc é de ${imc}`);
+console.log(`${nome} nasceu em ${anoNascimento}`);
